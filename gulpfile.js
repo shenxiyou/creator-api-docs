@@ -162,6 +162,7 @@ declare let CC_QQPLAY: boolean;
         else {
             // add dragonBones.d.ts
             output += fs.readFileSync(join(engine, 'extensions/dragonbones/lib/dragonBones.d.ts')) + '\n';
+            output += fs.readFileSync(join(engine, 'extensions/spriter/lib/index.d.ts')) + '\n';
             output += TSD_FOOTER;
 
             fs.ensureDirSync(dirname(dest));
