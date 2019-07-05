@@ -18,6 +18,7 @@ cc.NodePool 是用于管理节点对象的对象缓存池。<br/>
      等等....
 
 
+
 ### 索引
 
 ##### 属性（properties）
@@ -49,7 +50,7 @@ cc.NodePool 是用于管理节点对象的对象缓存池。<br/>
 | meta | description |
 |------|-------------|
 | 类型 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> |
-| 定义于 | [extensions/ccpool/CCNodePool.js:76](https://github.com/cocos-creator/engine/blob/96bda88193f046d4669a2fb38a5ad968c5d6a9df/extensions/ccpool/CCNodePool.js#L76) |
+| 定义于 | [extensions/ccpool/CCNodePool.js:76](https://github.com/cocos-creator/engine/blob/8bf4522a6d43b53258219983aabd728909ce24ca/extensions/ccpool/CCNodePool.js#L76) |
 
 
 
@@ -66,7 +67,7 @@ cc.NodePool 是用于管理节点对象的对象缓存池。<br/>
 
 | meta | description |
 |------|-------------|
-| 定义于 | [extensions/ccpool/CCNodePool.js:57](https://github.com/cocos-creator/engine/blob/96bda88193f046d4669a2fb38a5ad968c5d6a9df/extensions/ccpool/CCNodePool.js#L57) |
+| 定义于 | [extensions/ccpool/CCNodePool.js:57](https://github.com/cocos-creator/engine/blob/8bf4522a6d43b53258219983aabd728909ce24ca/extensions/ccpool/CCNodePool.js#L57) |
 
 ###### 参数列表
 - `poolHandlerComp` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function" class="crosslink external" target="_blank">Function</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> !#en The constructor or the class name of the component to control the unuse/reuse logic. !#zh 处理节点回收和复用事件逻辑的组件类型或名称。
@@ -90,7 +91,7 @@ properties: {
 | meta | description |
 |------|-------------|
 | 返回 | <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> 
-| 定义于 | [extensions/ccpool/CCNodePool.js:88](https://github.com/cocos-creator/engine/blob/96bda88193f046d4669a2fb38a5ad968c5d6a9df/extensions/ccpool/CCNodePool.js#L88) |
+| 定义于 | [extensions/ccpool/CCNodePool.js:88](https://github.com/cocos-creator/engine/blob/8bf4522a6d43b53258219983aabd728909ce24ca/extensions/ccpool/CCNodePool.js#L88) |
 
 
 
@@ -100,7 +101,7 @@ properties: {
 
 | meta | description |
 |------|-------------|
-| 定义于 | [extensions/ccpool/CCNodePool.js:98](https://github.com/cocos-creator/engine/blob/96bda88193f046d4669a2fb38a5ad968c5d6a9df/extensions/ccpool/CCNodePool.js#L98) |
+| 定义于 | [extensions/ccpool/CCNodePool.js:98](https://github.com/cocos-creator/engine/blob/8bf4522a6d43b53258219983aabd728909ce24ca/extensions/ccpool/CCNodePool.js#L98) |
 
 
 
@@ -112,7 +113,7 @@ properties: {
 
 | meta | description |
 |------|-------------|
-| 定义于 | [extensions/ccpool/CCNodePool.js:111](https://github.com/cocos-creator/engine/blob/96bda88193f046d4669a2fb38a5ad968c5d6a9df/extensions/ccpool/CCNodePool.js#L111) |
+| 定义于 | [extensions/ccpool/CCNodePool.js:111](https://github.com/cocos-creator/engine/blob/8bf4522a6d43b53258219983aabd728909ce24ca/extensions/ccpool/CCNodePool.js#L111) |
 
 ###### 参数列表
 - `obj` <a href="../classes/Node.html" class="crosslink">Node</a> 
@@ -132,7 +133,7 @@ let myNode = cc.instantiate(this.template);
 | meta | description |
 |------|-------------|
 | 返回 | <a href="../classes/Node.html" class="crosslink">Node</a> &#124; Null 
-| 定义于 | [extensions/ccpool/CCNodePool.js:139](https://github.com/cocos-creator/engine/blob/96bda88193f046d4669a2fb38a5ad968c5d6a9df/extensions/ccpool/CCNodePool.js#L139) |
+| 定义于 | [extensions/ccpool/CCNodePool.js:139](https://github.com/cocos-creator/engine/blob/8bf4522a6d43b53258219983aabd728909ce24ca/extensions/ccpool/CCNodePool.js#L139) |
 
 ###### 参数列表
 - `params` Any !#en Params to pass to 'reuse' method in poolHandlerComp !#zh 向 poolHandlerComp 中的 'reuse' 函数传递的参数

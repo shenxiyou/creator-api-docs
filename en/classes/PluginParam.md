@@ -8,6 +8,7 @@ Module: [anysdk](../modules/anysdk.md)
 Data structure class
 
 
+
 ### Index
 
 
@@ -34,7 +35,7 @@ create plugin parameters
 | meta | description |
 |------|-------------|
 | Returns | anysdk.PluginParam 
-| Defined in | [extensions/anysdk/jsb_anysdk.js:1788](https://github.com/cocos-creator/engine/blob/96bda88193f046d4669a2fb38a5ad968c5d6a9df/extensions/anysdk/jsb_anysdk.js#L1788) |
+| Defined in | [extensions/anysdk/jsb_anysdk.js:1788](https://github.com/cocos-creator/engine/blob/8bf4522a6d43b53258219983aabd728909ce24ca/extensions/anysdk/jsb_anysdk.js#L1788) |
 
 ###### Parameters
 - `parameters` <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number" class="crosslink external" target="_blank">Number</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" class="crosslink external" target="_blank">String</a> &#124; <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object" class="crosslink external" target="_blank">Object</a> 
